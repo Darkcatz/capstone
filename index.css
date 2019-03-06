@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: white;
     overflow-wrap: break-word;
     overflow-x: hidden;
 }
@@ -7,11 +7,17 @@ body{
     display: inline-block;
     padding: 10px;
     text-align: center;
+    border-radius: 50px;
+    height: 75px;
+    width: inherit;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .hat{
     height: 50px;
-    width: 45px;
+    width: 50px;
     box-align:left;
+    position: left center;
 }
 #nb{
     list-style: none;
@@ -99,6 +105,7 @@ body{
 .no{
     text-decoration: none;
     color:black;
+    padding: 10px;
 }
 .no a{
     text-decoration: none;

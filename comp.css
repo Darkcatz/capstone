@@ -5,11 +5,18 @@ body{
     display: inline-block;
     padding: 10px;
     text-align: center;
+    border-radius: 50px;
+    height: 75px;
+    width: inherit;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .hat{
     height: 50px;
-    width: 45px;
+    width: 50px;
     box-align:left;
+    position: left center;
 }
 .nb{
     list-style: none;
