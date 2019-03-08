@@ -1,5 +1,6 @@
 body{
     background-color: aquamarine;
+    overflow-x: hidden;
 }
 .i{
     display: inline-block;
@@ -84,14 +85,11 @@ body{
 }
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
 }
 .container{
     padding: 0 16px;
-}
-.container::after, .row::after{
-    content:"";
-    clear: both;
-    display: table;
+    border-radius: 50px;
 }
 .title{
     color:gray;
@@ -128,4 +126,16 @@ body{
   .sticky + .content {
     padding-top: 60px;
   }
-  
+  .column1{
+    float: left;
+    width: 45%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin:10px;
+}
+#column{
+    max-width: 578px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin: auto;
+}

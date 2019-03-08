@@ -1,5 +1,6 @@
 body{
     background-color: aquamarine;
+    overflow-x: hidden;
 }
 .i{
     display: inline-block;
@@ -128,4 +129,9 @@ body{
   .sticky + .content {
     padding-top: 60px;
   }
-  
+  #column{
+    max-width: 578px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin: auto;
+}
